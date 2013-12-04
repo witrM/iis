@@ -1,0 +1,8 @@
+distribuce_tiskudb:
+    resource: "@DistribuceTiskudbBundle/Resources/config/routing.yml"
+    prefix:   /
+
+distribuce_tisku:
+    resource: "@DistribuceTiskuBundle/Resources/config/routing.yml"
+    prefix:   /
+
