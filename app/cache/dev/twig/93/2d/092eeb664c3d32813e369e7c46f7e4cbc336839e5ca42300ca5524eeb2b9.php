@@ -31,22 +31,22 @@ class __TwigTemplate_932d092eeb664c3d32813e369e7c46f7e4cbc336839e5ca42300ca5524e
         echo "Seznam tiskovin";
     }
 
-    // line 5
+    // line 6
     public function block_body($context, array $blocks = array())
     {
-        // line 6
+        // line 7
         echo "    <header>
         <h1>Seznam Tiskovin</h1>
     </header>
 
     ";
-        // line 10
+        // line 11
         $context['_parent'] = (array) $context;
-        $context['_seq'] = twig_ensure_traversable($this->getContext($context, "tiskoviny"));
+        $context['_seq'] = twig_ensure_traversable((isset($context["tiskoviny"]) ? $context["tiskoviny"] : $this->getContext($context, "tiskoviny")));
         foreach ($context['_seq'] as $context["_key"] => $context["tiskovina"]) {
-            // line 11
+            // line 12
             echo "        ";
-            echo twig_escape_filter($this->env, $this->getAttribute($this->getContext($context, "tiskovina"), "titul"), "html", null, true);
+            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["tiskovina"]) ? $context["tiskovina"] : $this->getContext($context, "tiskovina")), "titul"), "html", null, true);
             echo "
     ";
         }
@@ -67,6 +67,6 @@ class __TwigTemplate_932d092eeb664c3d32813e369e7c46f7e4cbc336839e5ca42300ca5524e
 
     public function getDebugInfo()
     {
-        return array (  48 => 11,  44 => 10,  38 => 6,  35 => 5,  29 => 4,);
+        return array (  48 => 12,  44 => 11,  38 => 7,  35 => 6,  29 => 4,);
     }
 }

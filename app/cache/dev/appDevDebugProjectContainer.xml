@@ -397,7 +397,7 @@
     <parameter key="assetic.read_from">C:/wamp/www/projekty/app/../web</parameter>
     <parameter key="assetic.write_to">C:/wamp/www/projekty/app/../web</parameter>
     <parameter key="assetic.variables" type="collection"/>
-    <parameter key="assetic.java.bin">C:\windows\system32\java.EXE</parameter>
+    <parameter key="assetic.java.bin">C:\Windows\system32\java.EXE</parameter>
     <parameter key="assetic.node.bin">/usr/bin/node</parameter>
     <parameter key="assetic.ruby.bin">/usr/bin/ruby</parameter>
     <parameter key="assetic.sass.bin">/usr/bin/sass</parameter>
@@ -2152,6 +2152,7 @@
         <argument key="port">3306</argument>
         <argument key="user">root</argument>
         <argument key="password">null</argument>
+        <argument key="charset">UTF8</argument>
         <argument key="driver">pdo_mysql</argument>
         <argument key="driverOptions" type="collection"/>
       </argument>
@@ -2180,14 +2181,6 @@
       <argument type="service">
         <service class="Symfony\Bridge\Doctrine\ContainerAwareEventManager" public="false">
           <argument type="service" id="service_container"/>
-          <call method="addEventSubscriber">
-            <argument type="service">
-              <service class="Doctrine\DBAL\Event\Listeners\MysqlSessionInit" public="false">
-                <tag name="doctrine.event_subscriber" connection="default"/>
-                <argument>UTF8</argument>
-              </service>
-            </argument>
-          </call>
         </service>
       </argument>
       <argument type="collection"/>

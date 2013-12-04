@@ -60,7 +60,7 @@ class __TwigTemplate_02128e3e31aea0245125189e326b6e5d4daecb5b139beea9e086fd8f2ff
             </div>
             <a href=\"http://symfony.com/doc/";
         // line 19
-        echo twig_escape_filter($this->env, $this->getContext($context, "version"), "html", null, true);
+        echo twig_escape_filter($this->env, (isset($context["version"]) ? $context["version"] : $this->getContext($context, "version")), "html", null, true);
         echo "/quick_tour/index.html\" class=\"sf-button sf-button-selected\">
                 <span class=\"border-l\">
                     <span class=\"border-r\">
@@ -71,7 +71,7 @@ class __TwigTemplate_02128e3e31aea0245125189e326b6e5d4daecb5b139beea9e086fd8f2ff
         </div>
         ";
         // line 27
-        if (($this->getAttribute($this->getContext($context, "app"), "environment") == "dev")) {
+        if (($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "environment") == "dev")) {
             // line 28
             echo "            <div class=\"block-configure\">
                 <div class=\"illustration\">
@@ -120,23 +120,23 @@ class __TwigTemplate_02128e3e31aea0245125189e326b6e5d4daecb5b139beea9e086fd8f2ff
                 <li><strong>Documentation</strong></li>
                 <li><a href=\"http://symfony.com/doc/";
         // line 59
-        echo twig_escape_filter($this->env, $this->getContext($context, "version"), "html", null, true);
+        echo twig_escape_filter($this->env, (isset($context["version"]) ? $context["version"] : $this->getContext($context, "version")), "html", null, true);
         echo "/book/index.html\">The Book</a></li>
                 <li><a href=\"http://symfony.com/doc/";
         // line 60
-        echo twig_escape_filter($this->env, $this->getContext($context, "version"), "html", null, true);
+        echo twig_escape_filter($this->env, (isset($context["version"]) ? $context["version"] : $this->getContext($context, "version")), "html", null, true);
         echo "/cookbook/index.html\">The Cookbook</a></li>
                 <li><a href=\"http://symfony.com/doc/";
         // line 61
-        echo twig_escape_filter($this->env, $this->getContext($context, "version"), "html", null, true);
+        echo twig_escape_filter($this->env, (isset($context["version"]) ? $context["version"] : $this->getContext($context, "version")), "html", null, true);
         echo "/components/index.html\">The Components</a></li>
                 <li><a href=\"http://symfony.com/doc/";
         // line 62
-        echo twig_escape_filter($this->env, $this->getContext($context, "version"), "html", null, true);
+        echo twig_escape_filter($this->env, (isset($context["version"]) ? $context["version"] : $this->getContext($context, "version")), "html", null, true);
         echo "/reference/index.html\">Reference</a></li>
                 <li><a href=\"http://symfony.com/doc/";
         // line 63
-        echo twig_escape_filter($this->env, $this->getContext($context, "version"), "html", null, true);
+        echo twig_escape_filter($this->env, (isset($context["version"]) ? $context["version"] : $this->getContext($context, "version")), "html", null, true);
         echo "/glossary.html\">Glossary</a></li>
             </ul>
         </div>
@@ -155,7 +155,7 @@ class __TwigTemplate_02128e3e31aea0245125189e326b6e5d4daecb5b139beea9e086fd8f2ff
                 <li><a href=\"http://forum.symfony-project.org\">Forum</a></li>
                 <li><a href=\"http://symfony.com/doc/";
         // line 79
-        echo twig_escape_filter($this->env, $this->getContext($context, "version"), "html", null, true);
+        echo twig_escape_filter($this->env, (isset($context["version"]) ? $context["version"] : $this->getContext($context, "version")), "html", null, true);
         echo "/contributing/index.html\">Contributing</a></li>
             </ul>
         </div>
@@ -175,6 +175,6 @@ class __TwigTemplate_02128e3e31aea0245125189e326b6e5d4daecb5b139beea9e086fd8f2ff
 
     public function getDebugInfo()
     {
-        return array (  97 => 41,  58 => 17,  127 => 60,  110 => 22,  53 => 11,  84 => 29,  65 => 19,  90 => 32,  304 => 91,  299 => 86,  296 => 85,  291 => 49,  286 => 46,  270 => 40,  253 => 30,  249 => 29,  245 => 28,  237 => 26,  233 => 25,  226 => 22,  216 => 11,  213 => 10,  207 => 6,  202 => 92,  200 => 91,  195 => 88,  188 => 82,  178 => 78,  174 => 77,  170 => 76,  153 => 70,  146 => 68,  124 => 61,  104 => 56,  100 => 55,  76 => 28,  480 => 162,  474 => 161,  469 => 158,  461 => 155,  457 => 153,  453 => 151,  444 => 149,  440 => 148,  437 => 147,  435 => 146,  430 => 144,  427 => 143,  423 => 142,  413 => 134,  409 => 132,  407 => 131,  402 => 130,  398 => 129,  393 => 126,  387 => 122,  384 => 121,  381 => 120,  379 => 119,  374 => 116,  368 => 112,  365 => 111,  362 => 110,  360 => 109,  355 => 106,  341 => 105,  337 => 103,  322 => 101,  314 => 99,  312 => 98,  309 => 97,  305 => 95,  298 => 91,  294 => 90,  285 => 89,  283 => 88,  278 => 41,  268 => 85,  264 => 34,  258 => 32,  252 => 80,  247 => 78,  241 => 27,  229 => 23,  220 => 13,  214 => 69,  177 => 65,  169 => 60,  140 => 65,  132 => 63,  128 => 62,  107 => 29,  61 => 12,  273 => 96,  269 => 94,  254 => 92,  243 => 88,  240 => 86,  238 => 85,  235 => 74,  230 => 82,  227 => 81,  224 => 71,  221 => 77,  219 => 76,  217 => 75,  208 => 68,  204 => 72,  179 => 69,  159 => 73,  143 => 56,  135 => 62,  119 => 42,  102 => 17,  71 => 20,  67 => 15,  63 => 19,  59 => 13,  38 => 6,  94 => 34,  89 => 20,  85 => 32,  75 => 17,  68 => 14,  56 => 11,  87 => 25,  21 => 2,  26 => 9,  93 => 27,  88 => 31,  78 => 26,  46 => 8,  27 => 4,  44 => 10,  31 => 3,  28 => 3,  201 => 92,  196 => 90,  183 => 82,  171 => 61,  166 => 75,  163 => 62,  158 => 79,  156 => 66,  151 => 63,  142 => 59,  138 => 54,  136 => 64,  121 => 46,  117 => 19,  105 => 18,  91 => 27,  62 => 40,  49 => 13,  24 => 4,  25 => 35,  19 => 1,  79 => 18,  72 => 16,  69 => 18,  47 => 8,  40 => 6,  37 => 5,  22 => 2,  246 => 90,  157 => 56,  145 => 46,  139 => 63,  131 => 61,  123 => 59,  120 => 20,  115 => 43,  111 => 37,  108 => 19,  101 => 43,  98 => 26,  96 => 54,  83 => 25,  74 => 27,  66 => 41,  55 => 22,  52 => 14,  50 => 10,  43 => 11,  41 => 10,  35 => 5,  32 => 5,  29 => 3,  209 => 82,  203 => 78,  199 => 67,  193 => 85,  189 => 71,  187 => 84,  182 => 79,  176 => 64,  173 => 65,  168 => 72,  164 => 59,  162 => 74,  154 => 58,  149 => 69,  147 => 58,  144 => 49,  141 => 48,  133 => 55,  130 => 41,  125 => 44,  122 => 43,  116 => 59,  112 => 58,  109 => 34,  106 => 45,  103 => 32,  99 => 27,  95 => 26,  92 => 53,  86 => 23,  82 => 28,  80 => 30,  73 => 16,  64 => 13,  60 => 16,  57 => 12,  54 => 10,  51 => 13,  48 => 9,  45 => 8,  42 => 7,  39 => 9,  36 => 5,  33 => 4,  30 => 3,);
+        return array (  97 => 41,  58 => 17,  90 => 32,  53 => 11,  84 => 29,  65 => 19,  181 => 54,  155 => 36,  127 => 60,  114 => 13,  110 => 22,  76 => 28,  480 => 162,  474 => 161,  469 => 158,  461 => 155,  457 => 153,  453 => 151,  444 => 149,  440 => 148,  437 => 147,  435 => 146,  430 => 144,  427 => 143,  423 => 142,  413 => 134,  409 => 132,  407 => 131,  402 => 130,  398 => 129,  393 => 126,  387 => 122,  384 => 121,  381 => 120,  379 => 119,  374 => 116,  368 => 112,  365 => 111,  362 => 110,  360 => 109,  355 => 106,  341 => 105,  337 => 103,  322 => 101,  314 => 99,  312 => 98,  309 => 97,  305 => 95,  298 => 91,  294 => 90,  285 => 89,  283 => 88,  278 => 86,  268 => 85,  264 => 84,  258 => 81,  252 => 80,  247 => 78,  241 => 77,  229 => 73,  220 => 70,  214 => 69,  177 => 65,  169 => 60,  140 => 55,  132 => 51,  128 => 49,  107 => 10,  61 => 12,  273 => 96,  269 => 94,  254 => 92,  243 => 88,  240 => 86,  238 => 85,  235 => 74,  230 => 82,  227 => 81,  224 => 71,  221 => 77,  219 => 76,  217 => 75,  208 => 68,  204 => 72,  179 => 69,  159 => 61,  143 => 56,  135 => 62,  119 => 42,  102 => 17,  71 => 20,  67 => 15,  63 => 19,  59 => 13,  38 => 6,  94 => 34,  89 => 51,  85 => 32,  75 => 17,  68 => 14,  56 => 11,  87 => 48,  21 => 2,  26 => 9,  93 => 27,  88 => 31,  78 => 26,  46 => 8,  27 => 4,  44 => 11,  31 => 3,  28 => 3,  201 => 92,  196 => 90,  183 => 82,  171 => 61,  166 => 71,  163 => 41,  158 => 79,  156 => 66,  151 => 63,  142 => 59,  138 => 54,  136 => 56,  121 => 46,  117 => 19,  105 => 18,  91 => 27,  62 => 35,  49 => 13,  24 => 4,  25 => 35,  19 => 1,  79 => 18,  72 => 16,  69 => 25,  47 => 8,  40 => 6,  37 => 5,  22 => 2,  246 => 90,  157 => 56,  145 => 46,  139 => 63,  131 => 61,  123 => 59,  120 => 20,  115 => 43,  111 => 37,  108 => 19,  101 => 43,  98 => 31,  96 => 55,  83 => 25,  74 => 27,  66 => 36,  55 => 22,  52 => 14,  50 => 10,  43 => 11,  41 => 10,  35 => 5,  32 => 5,  29 => 3,  209 => 82,  203 => 78,  199 => 67,  193 => 73,  189 => 71,  187 => 84,  182 => 66,  176 => 49,  173 => 48,  168 => 44,  164 => 59,  162 => 57,  154 => 58,  149 => 51,  147 => 35,  144 => 49,  141 => 48,  133 => 55,  130 => 41,  125 => 44,  122 => 43,  116 => 41,  112 => 42,  109 => 34,  106 => 45,  103 => 32,  99 => 31,  95 => 28,  92 => 21,  86 => 28,  82 => 28,  80 => 30,  73 => 16,  64 => 13,  60 => 16,  57 => 12,  54 => 10,  51 => 13,  48 => 9,  45 => 8,  42 => 7,  39 => 9,  36 => 5,  33 => 4,  30 => 3,);
     }
 }

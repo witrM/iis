@@ -80,7 +80,7 @@ class __TwigTemplate_154b8d5fc6d9c2c3e558a637ffe0348606eafc4a94c6ce1d886720f2038
         $this->displayBlock('sidebar', $context, $blocks);
         // line 50
         echo "                ";
-        if (($this->getAttribute($this->getAttribute($this->getContext($context, "app"), "session"), "get", array(0 => "type"), "method") == "0")) {
+        if (($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "type"), "method") == "0")) {
             echo "  
                 <ul>
                     <li><a href=\"";
@@ -141,7 +141,7 @@ class __TwigTemplate_154b8d5fc6d9c2c3e558a637ffe0348606eafc4a94c6ce1d886720f2038
             echo "\">Upravit profil</a></li>
                 </ul>
                 ";
-        } elseif (($this->getAttribute($this->getAttribute($this->getContext($context, "app"), "session"), "get", array(0 => "type"), "method") == "1")) {
+        } elseif (($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "type"), "method") == "1")) {
             // line 68
             echo "                <ul>
                     <li><a href=\"";
@@ -154,7 +154,7 @@ class __TwigTemplate_154b8d5fc6d9c2c3e558a637ffe0348606eafc4a94c6ce1d886720f2038
             echo "\">Upravit profil</a></li>
                 </ul>
                 ";
-        } elseif (($this->getAttribute($this->getAttribute($this->getContext($context, "app"), "session"), "get", array(0 => "type"), "method") == "2")) {
+        } elseif (($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "type"), "method") == "2")) {
             // line 73
             echo "                <ul>
                     <li><a href=\"";
@@ -246,7 +246,7 @@ class __TwigTemplate_154b8d5fc6d9c2c3e558a637ffe0348606eafc4a94c6ce1d886720f2038
         echo "\">Tiskoviny</a></li>
                                 ";
         // line 29
-        if (($this->getAttribute($this->getAttribute($this->getContext($context, "app"), "session"), "get", array(0 => "user"), "method") != "")) {
+        if (($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "user"), "method") != "")) {
             echo "  
                                 <li><a href=\"";
             // line 30
@@ -317,6 +317,6 @@ class __TwigTemplate_154b8d5fc6d9c2c3e558a637ffe0348606eafc4a94c6ce1d886720f2038
 
     public function getDebugInfo()
     {
-        return array (  304 => 91,  299 => 86,  296 => 85,  291 => 49,  286 => 46,  278 => 41,  270 => 40,  264 => 34,  258 => 32,  253 => 30,  249 => 29,  245 => 28,  241 => 27,  237 => 26,  233 => 25,  229 => 23,  226 => 22,  220 => 13,  216 => 11,  213 => 10,  207 => 6,  202 => 92,  200 => 91,  195 => 88,  193 => 85,  188 => 82,  182 => 79,  178 => 78,  174 => 77,  170 => 76,  166 => 75,  162 => 74,  159 => 73,  153 => 70,  149 => 69,  146 => 68,  140 => 65,  136 => 64,  132 => 63,  128 => 62,  124 => 61,  120 => 60,  116 => 59,  112 => 58,  108 => 57,  104 => 56,  100 => 55,  96 => 54,  92 => 53,  88 => 52,  82 => 50,  80 => 49,  76 => 47,  74 => 46,  66 => 41,  62 => 40,  57 => 37,  55 => 22,  42 => 10,  28 => 1,  43 => 9,  36 => 6,  32 => 5,  48 => 11,  44 => 15,  38 => 6,  35 => 6,  29 => 4,);
+        return array (  304 => 91,  299 => 86,  296 => 85,  291 => 49,  286 => 46,  278 => 41,  270 => 40,  264 => 34,  258 => 32,  253 => 30,  249 => 29,  245 => 28,  241 => 27,  237 => 26,  233 => 25,  229 => 23,  226 => 22,  220 => 13,  216 => 11,  213 => 10,  207 => 6,  202 => 92,  200 => 91,  195 => 88,  193 => 85,  188 => 82,  182 => 79,  178 => 78,  174 => 77,  170 => 76,  166 => 75,  162 => 74,  159 => 73,  153 => 70,  149 => 69,  146 => 68,  140 => 65,  136 => 64,  132 => 63,  128 => 62,  124 => 61,  120 => 60,  116 => 59,  112 => 58,  108 => 57,  104 => 56,  100 => 55,  96 => 54,  92 => 53,  88 => 52,  82 => 50,  80 => 49,  76 => 47,  74 => 46,  66 => 41,  62 => 40,  57 => 37,  55 => 22,  44 => 15,  42 => 10,  35 => 6,  28 => 1,);
     }
 }
